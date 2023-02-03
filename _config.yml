@@ -22,7 +22,7 @@ title: Fiddling while Rome...
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   A personal website and blog owned by Rob Phippen
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "robphippen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: robphippen
 github_username:  robphippen
