@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-_Fiddling while Rome..._ is my home grown website and blog
+_Pennies down the well_ is my home grown website and blog

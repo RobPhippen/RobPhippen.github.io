@@ -18,20 +18,63 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Fiddling while Rome...
+title: Pennies down the well
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A personal website and blog owned by Rob Phippen
+  Rob Phippen's blog about life, art and science.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://robphippen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: robphippen
-github_username:  robphippen
-mastodon_username:
+
+
+lang: en-US
+
+# Pages to include in header navigation
+nav_pages:
+  - index.md
+  - about.md
+  - contact.md
+
+# Pages to include in footer navigation
+footer_pages:
+  - fine-print.md
+
+# Disqus login information, for comments
+disqus:
+  shortname: DISQUS_USERNAME
+
+# Links to include on the contact page
+contact_links:
+  - name: Mastodon
+    url: https://mastodon.art/@robphippen
+    icon: mastodon
+
+# Front matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      comments: true
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+      comments: false
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: benbalter/retlab
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-avatar
+  - jekyll-github-metadata
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

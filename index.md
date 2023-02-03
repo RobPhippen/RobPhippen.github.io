@@ -1,8 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: index
 ---
-# Rob's Website
-Some stuff. And more.
+# Pennies down the well
+This is my blog, which I use when I can't fit what I want to say into the 500 character
+limit currently imposed by Mastodon. You can find me there at
+<a rel="me" href="https://mastodon.art/@robphippen">mastodon.art/@robphippen</a>
