@@ -73,6 +73,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-avatar
   - jekyll-github-metadata
+  - jemoji
 
 
 # Exclude from processing.
