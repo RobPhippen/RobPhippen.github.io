@@ -2,7 +2,7 @@
 layout: post
 title:  "First post!"
 date:   2023-02-03
-categories:
+categories: introduction
 ---
 ## A new 'home'
 <!--<img src="{{'assets/img/trees-painting.png' | relative_url }}" width="300" alt="Watercolour painting of some trees"/>-->
